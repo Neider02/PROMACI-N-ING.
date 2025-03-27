@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declarar variables para las coordenadas
+    float x1, y1, x2, y2, x3, y3;
+    for (int i = 0; i < 3; i++) {
+        if (i == 0) {
+            cout << "Ingresa una coordenada en el punto A" << endl;
+            cout << "Digita coordenada X1: ";
+            cin >> x1;
+            cout << "Digita coordenada Y1: ";
+            cin >> y1;
+            cout << "X1 = " << x1 << endl;
+            cout << "Y1 = " << y1 << endl;
+        } else if (i == 1) {
+            cout << "Ingresa una coordenada en el punto B" << endl;
+            cout << "Digita coordenada X2: ";
+            cin >> x2;
+            cout << "Digita coordenada Y2: ";
+            cin >> y2;
+            cout << "X2 = " << x2 << endl;
+            cout << "Y2 = " << y2 << endl;
+        } else if (i == 2) {
+            cout << "Ingresa una coordenada en el punto C" << endl;
+            cout << "Digita coordenada X3: ";
+            cin >> x3;
+            cout << "Digita coordenada Y3: ";
+            cin >> y3;
+            cout << "X3 = " << x3 << endl;
+            cout << "Y3 = " << y3 << endl;
+        }
+        cout << endl; // Espacio entre puntos
+    }
+
+    return 0;
+}
