@@ -14,7 +14,7 @@ int main() {
             cout << "X1 = " << x1 << endl;
             cout << "Y1 = " << y1 << endl;
         } else if (i == 1) {
-            cout << "Ingresa una coordenada en el punto B" << endl;
+            cout << "Ingresa una coordenada en el punto B" << endl; dfhsrhdshdgfnhsgygxbghdyhgbcghdtdgcbxgdbdrwsfrfgrfhftgfbtrfbrtfv
             cout << "Digita coordenada X2: ";
             cin >> x2;
             cout << "Digita coordenada Y2: ";
